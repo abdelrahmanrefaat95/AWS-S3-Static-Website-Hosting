@@ -23,8 +23,7 @@ Cost-Effective: S3's pay-as-you-go pricing is very budget-friendly for static we
 
 The goal of this project was to leverage Amazon S3's static website hosting capabilities to deploy a website consisting of HTML, CSS, and JavaScript files. This approach offers a cost-effective, scalable, and secure solution for serving web content.
 
-![Architecture Overview]
-[AWS Diagram.jpg](https://i.imgur.com/BFwfz3w.jpg)
+![Architecture Overview](https://i.imgur.com/BFwfz3w.jpg)
 ## Documentation
 
 [Hosting a static website using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
