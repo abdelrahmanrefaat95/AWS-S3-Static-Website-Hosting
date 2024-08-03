@@ -23,7 +23,7 @@ Cost-Effective: S3's pay-as-you-go pricing is very budget-friendly for static we
 
 The goal of this project was to leverage Amazon S3's static website hosting capabilities to deploy a website consisting of HTML, CSS, and JavaScript files. This approach offers a cost-effective, scalable, and secure solution for serving web content.
 
-![Architecture Overview](https://photos.app.goo.gl/84YSik55Y8sU8vUo9)
+![Architecture Overview](AWS Diagram.jpg)
 ## Documentation
 
 [Hosting a static website using Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
@@ -31,16 +31,16 @@ The goal of this project was to leverage Amazon S3's static website hosting capa
 
 ## Installation
 
-Download and Install AWS CLI from official AWS website based on your preference of OS (Windows, Linux, MacOS)
+Download and Install AWS CLI from the official AWS website based on your preference of OS (Windows, Linux, MacOS)
 
 [Install or update to the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
     
 
 ## Before you Start
 
-1- Login into AWS Account and create IAM user with the required permissions to interact with AWS S3 service (Preferrably Admin User)
+1- Login into your AWS Account and create an IAM user with the required permissions to interact with AWS S3 service (preferably Admin User)
 
-2- Create and Download AWS Access keys for that user to ineract with AWS using AWS CLI from your local machine.
+2- Create and Download AWS Access keys for that user to interact with AWS using AWS CLI from your local machine.
 
 3- Configure AWS Access keys using your preferred Terminal (PowerShell or Bash Shell) using The following Commands:
 
@@ -52,7 +52,7 @@ aws configure
 
     AWS Access Key ID, AWS Secret Access Key, Default region name, Default output format
 
-5- Download Static Website assests from any Source you          like, 
+5- Download Static Website assets from any Source you          like, 
     I Used [html5up](https://html5up.net/)
 
 [Static Website Download Link- ethereal](https://html5up.net/ethereal) 
